@@ -1,0 +1,39 @@
+{
+  "name": "interview-kalaikt",
+  "version": "1.0.0",
+  "description": "## Scenario",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "webpack-dev-server --output-public-path=/public/ --inline --content-base ./src -d --watch",
+    "prod": "webpack-dev-server --inline --content-base ./src -p"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/roverjobs/interview-kalaikt.git"
+  },
+  "author": "Kalaikumar Thangasamy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/roverjobs/interview-kalaikt/issues"
+  },
+  "homepage": "https://github.com/roverjobs/interview-kalaikt#readme",
+  "dependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-1": "^6.24.1",
+    "js-cookie": "^2.1.4",
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1",
+    "react-redux": "^5.0.6",
+    "redux": "^3.7.2",
+    "redux-immutable-state-invariant": "^2.0.0",
+    "redux-thunk": "^2.2.0",
+    "webpack": "^3.5.5"
+  },
+  "devDependencies": {
+    "webpack-dev-server": "^2.7.1"
+  }
+}
